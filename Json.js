@@ -171,7 +171,5 @@ Json.registerType( 'string', StringField, true );
 Json.registerType( 'text', TextField, true );
 Json.registerType( 'number', NumberField, true );
 Json.registerType( 'boolean', BooleanField, true );
-Json.registerType( 'password', PasswordField );
-Json.registerType( 'select', SelectField );
 
 module.exports = Json;
